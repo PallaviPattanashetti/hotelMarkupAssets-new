@@ -9,31 +9,29 @@
   display: flex;
   justify-content: center; /* center horizontally */
   align-items: center;     /* center vertically */
-  z-index: 1030; 
+  
 }
 
 .navbar-row {
   display: flex;
-  gap: 40px;
-  align-items: center;       /* space between links */
+  gap: 40px;   
+  top:83px;
+  left: 762; 
+  width: 71px; 
+  height: 26;          /* space between links */
 }
 
 .nav-link {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   text-align: center;
-  transition: color 0.3s ease;
 }
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #1db7f5; /* subtle highlight */
-}
-
 .banner-image-container {
   position: absolute;
+  top: 119px;
+  left: 0px;
   width: 1920px;
   height: 500px;
   opacity: 1;
@@ -95,9 +93,22 @@ height: 4612px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 opacity: 1;
 }
+.h2 {
+top: 719px;
+left: 776px;
+width: 434px;
+height: 44px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+ }
 
-.head2 {
-top: 505px;
+.white-content{
+
+top: 785px;
 left: 776px;
 width: 753px;
 height: 155px;
@@ -106,21 +117,12 @@ text-align: left;
 font: normal normal normal 16px/20px Source Sans Pro;
 letter-spacing: 0px;
 color: #1A1B26;
-opacity: 1; }
-
-
- .container1{
- top: 719px;
-left: 776px;
-width: 434px;
-height: 44px;
-/* UI Properties */
-text-align: left;
-font: 35px/44px Dosis;
-letter-spacing: 0px;
-color: #1A1B26;
 opacity: 1;
- }
+ } 
+
+.logos-container {
+  position: relative; /* positioning context for absolute child */
+}
 
 .log1 {
   position: absolute;
@@ -133,7 +135,6 @@ opacity: 1;
   opacity: 1;
 }
 .log2 {
-   position: absolute;
 top: 931px;
 left: 1052px;
 width: 200px;
@@ -144,7 +145,6 @@ opacity: 1;
 }
 
 .log3 {
-   position: absolute;
 top: 949px;
 left: 1355px;
 width: 200px;
@@ -155,8 +155,12 @@ opacity: 1;
 }
 
 .blue-image-container{
-  width: 1928px;
-  height: 738px;
-  overflow: hidden;
-  position: relative;
+    top: 1235px;
+left: 0px;
+width: 1920px;
+height: 738px;
+opacity: 1;
 }
+
+
+    

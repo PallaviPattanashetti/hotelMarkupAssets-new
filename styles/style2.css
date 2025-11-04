@@ -1,0 +1,204 @@
+/* --- Navbar --- */
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: #000324;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1030;
+}
+
+.navbar-row {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #1db7f5;
+}
+
+/* --- Banner --- */
+.banner-image-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.inner-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: 945px;
+  background: rgba(0, 3, 36, 0.8);
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 32px;
+  color: #E5FEFF;
+  text-align: center;
+}
+
+.box-subcontent {
+  font: normal normal normal 16px/20px 'Source Sans Pro', sans-serif;
+  color: #E5FEFF;
+  opacity: 1;
+}
+
+/* --- Main Content Section --- */
+.main-content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.main-content-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.text-content h2 {
+  text-align: right;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1A1B26;
+}
+
+.text-content p {
+  text-align: right;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* --- Logos --- */
+.logo-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.award {
+  width: 200px;
+  height: 180px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.log1 {
+  background-image: url('/images/awardfinest.png');
+}
+
+.log2 {
+  background-image: url('/images/awardsatisfaction.png');
+}
+
+.log3 {
+  background-image: url('/images/awardgenuine.png');
+}
+
+/* --- Head2 Section --- */
+.head2 {
+  text-align: center;
+  font: normal normal normal 16px/20px 'Source Sans Pro', sans-serif;
+  color: #1A1B26;
+  margin-top: 80px;
+}
+
+.head2 h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 35px;
+  color: #1A1B26;
+  margin-bottom: 20px;
+}
+
+.head2 p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1A1B26;
+}
+
+/* --- General --- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* --- Responsive --- */
+@media (max-width: 992px) {
+  .text-content h2,
+  .text-content p {
+    text-align: center;
+  }
+
+  .logo-row {
+    justify-content: center;
+  }
+
+  .main-content-section {
+    flex-direction: column;
+  }
+}
+
+blue-image-col{
+    top: 1235px;
+left: 0px;
+width: 1920px;
+height: 738px;
+opacity: 1;
+
+}
+.our-room-heading {
+  position: absolute;
+  top: 1266px;
+  left: 887px;
+  width: 146px;
+  height: 44px;
+  text-align: center;
+  font: normal normal normal 35px/44px 'Dosis', sans-serif;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
