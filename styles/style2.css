@@ -151,14 +151,14 @@
 }
 
 /* --- General --- */
-body {
+/*body {
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #ffffff;
-}
+}*/
 
-img {
+.img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -189,6 +189,7 @@ margin-top: 40px;
 opacity: 1;
 }
 h3 {
+  
   text-align: center;
 font: normal 35px/44px Dosis;
 letter-spacing: 0px;
@@ -216,6 +217,7 @@ opacity: 1;
 }
 
 h5{
+  margin-top: 30px;
 text-align: left;
 font: normal  25px/32px Dosis;
 letter-spacing: 0px;
@@ -268,4 +270,11 @@ font: normal normal normal 16px/20px Source Sans Pro;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+margin-top: 30px;
+}
+.img-row {
+margin-top: 100px;
+display: flex;
+  justify-content: space-evenly;
+
 }
