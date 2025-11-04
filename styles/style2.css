@@ -97,9 +97,7 @@
 }
 
 .text-content p {
-  text-align: right;
-  color: #333;
-  line-height: 1.6;
+  text-align: left;
 }
 
 /* --- Logos --- */
@@ -182,23 +180,92 @@ img {
   }
 }
 
-blue-image-col{
+.blue-image-container{
+  background-image: url(/images/bg2.jpg);
     top: 1235px;
 left: 0px;
-width: 1920px;
 height: 738px;
+margin-top: 40px;
+opacity: 1;
+}
+h3 {
+  text-align: center;
+font: normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.card{
+text-align: left;
+font: normal  16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+margin-top: 40px;
+
+}
+
+h4{
+  text-align: center;
+font: normal normal normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #1A1B26;
+margin-top: 40;
+opacity: 1;
+}
+
+h5{
+text-align: left;
+font: normal  25px/32px Dosis;
+letter-spacing: 0px;
+color: #1A1B26;
 opacity: 1;
 
 }
-.our-room-heading {
-  position: absolute;
-  top: 1266px;
-  left: 887px;
-  width: 146px;
-  height: 44px;
-  text-align: center;
-  font: normal normal normal 35px/44px 'Dosis', sans-serif;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  opacity: 1;
+
+h6{
+  text-align: left;
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #1F51A8;
+opacity: 1;
+}
+
+.text-content1{
+text-align: left;
+font: normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+
+
+
+}
+
+.logoblue-container{
+
+background-image: url(/images/bg.jpg);
+top: 2942px;
+left: 0px;
+height: 548px;
+/* UI Properties */
+opacity: 1;
+
+}
+
+header {
+text-align: center;
+font: normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.logoblue-container p {
+text-align: center;
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
 }
