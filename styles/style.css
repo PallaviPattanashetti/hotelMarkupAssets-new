@@ -15,7 +15,7 @@
 .navbar-row {
   display: flex;
   gap: 40px;
-  align-items: center;
+  align-items: self-end;
 }
 
 .nav-link {
@@ -166,6 +166,7 @@
 
 /* --- Responsive --- */
 @media (max-width: 992px) {
+
   .text-content h2,
   .text-content p {
     text-align: center;
@@ -180,101 +181,171 @@
   }
 }
 
-.blue-image-container{
+.blue-image-container {
   background-image: url(/images/bg2.jpg);
-    top: 1235px;
-left: 0px;
-height: 738px;
-margin-top: 40px;
-opacity: 1;
+  top: 1235px;
+  left: 0px;
+  height: 738px;
+  margin-top: 40px;
+  opacity: 1;
 }
+
 h3 {
-  
   text-align: center;
-font: normal 35px/44px Dosis;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+  font: normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
 }
 
-.card{
-text-align: left;
-font: normal  16px/20px Source Sans Pro;
-letter-spacing: 0px;
-color: #1A1B26;
-opacity: 1;
-margin-top: 40px;
-
-}
-
-h4{
-  text-align: center;
-font: normal normal normal 35px/44px Dosis;
-letter-spacing: 0px;
-color: #1A1B26;
-margin-top: 40;
-opacity: 1;
-}
-
-h5{
-  margin-top: 30px;
-text-align: left;
-font: normal  25px/32px Dosis;
-letter-spacing: 0px;
-color: #1A1B26;
-opacity: 1;
-
-}
-
-h6{
+.card {
   text-align: left;
-font: normal normal normal 16px/20px Source Sans Pro;
-letter-spacing: 0px;
-color: #1F51A8;
-opacity: 1;
-}
-
-.text-content1{
-text-align: left;
-font: normal 16px/20px Source Sans Pro;
-letter-spacing: 0px;
-color: #1A1B26;
-opacity: 1;
-
-
+  font: normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
+  margin-top: 40px;
 
 }
 
-.logoblue-container{
-background-image: url(/images/bg.jpg);
-top: 2942px;
-left: 0px;
-height: 548px;
-/* UI Properties */
-opacity: 1;
+h4 {
+  text-align: center;
+  font: normal normal normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  margin-top: 40;
+  opacity: 1;
+}
+
+h5 {
+  margin-top: 30px;
+  text-align: left;
+  font: normal 25px/32px Dosis;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
+
+}
+
+h6 {
+  text-align: left;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #1F51A8;
+  opacity: 1;
+}
+
+.text-content1 {
+  text-align: left;
+  font: normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
+
+
+
+}
+
+.logoblue-container {
+  background-image: url(/images/bg.jpg);
+  top: 2942px;
+  left: 0px;
+  height: 548px;
+  /* UI Properties */
+  opacity: 1;
 
 
 }
 
 header {
-text-align: center;
-font: normal 35px/44px Dosis;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+  text-align: center;
+  font: normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
 }
 
 .logoblue-container p {
-text-align: center;
-font: normal normal normal 16px/20px Source Sans Pro;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-margin-top: 30px;
+  text-align: center;
+  font: normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 30px;
 }
 
 .img-row {
-margin-top: 100px;
-display: flex;
+  margin-top: 100px;
+  display: flex;
   justify-content: space-evenly;
+}
+
+.bottom-container {
+  top: 3797px;
+  left: 392px;
+  width: 1137px;
+  height: 480px;
+  /* Increased height from 414px to 450px */
+  opacity: 1;
+  background-image: url('/images/hamsterreserve.jpg')
+    /*top: 3797px;
+left: 392px;
+width: 1137px;
+height: 414px;
+opacity: 1;
+background-image: url('/images/hamsterreserve.jpg');*/
+
+}
+
+.bottom-row {
+  top: 3591px;
+  left: 392px;
+  width: 1137px;
+  height: 207px;
+
+  background: #000324 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+
+.last-row {
+  top: 4312px;
+  left: 0px;
+  width: 1920px;
+  height: 300px;
+  margin-top: 40px;
+  background: #000324 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+p2 {
+
+  text-align: center;
+  font: normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+
+
+}
+
+p3 {
+
+  text-align: center;
+  font: normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #E5FEFF;
+  opacity: 1;
+
+}
+
+p4 {
+  text-align: left;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #E5FEFF;
+  opacity: 1
 }
