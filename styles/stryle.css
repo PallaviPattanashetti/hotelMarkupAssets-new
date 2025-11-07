@@ -110,11 +110,12 @@
 }
 
 .text-content h2 {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #1A1B26;
+  text-align: left;
+font:  normal 35px/44px Dosis;
+color: #1A1B26;
+opacity: 1;
+margin-bottom: 70px;
+  
 }
 
 .text-content p {
@@ -131,7 +132,10 @@
   justify-content: flex-end;
   gap: 40px;
   margin-top: 40px;
+  
+
 }
+
 
 .award {
   width: 160px;
@@ -140,8 +144,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
 
 .log1 { background-image: url('/images/awardfinest.png'); }
 .log2 { background-image: url('/images/awardsatisfaction.png'); }
@@ -165,14 +167,9 @@
 .card {
   background: white;
   border-radius: 10px;
-  width: 22rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  
-  
+  width: 20rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
 }
-
-
-
 
 .card img {
   border-radius: 10px 10px 0 0;
@@ -181,20 +178,15 @@
 .card-body ul li {
  text-align: left;
 font:  normal 16px/20px Source Sans Pro;
-letter-spacing: 0px;
 color: #1A1B26;
 opacity: 1;
 margin-bottom: 20px;
  
 }
 .card-body p{
-
 text-align: left;
 font:  normal bold 16px/20px Source Sans Pro;
-letter-spacing: 0px;
 color: #1A1B26;
-opacity: 1;
-
 }
 
 /* --- Package Section --- */
@@ -209,25 +201,30 @@ opacity: 1;
 .package-section h4 {
   font-size: 35px;
   color: #1A1B26;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-align: center;
+ 
 
 }
 
 .package-section .text-content h5 {
   font-size: 25px;
   color: #1A1B26;
+  margin-bottom: 40px;
+  
 }
 
 .package-section .text-content h6 {
   font-size: 16px;
   color: #1F51A8;
+  margin-bottom: 40px;
 }
 
 .package-section .text-content p {
-  font-size: 15px;
+  font: 16/20px;
   line-height: 1.6;
   color: #333;
+  
 }
 
 .image-side img {
@@ -263,6 +260,12 @@ opacity: 1;
   font-size: 16px;
   margin-top: 10px;
 }
+.picture{
+width: 150px;
+aspect-ratio: 1/1;
+object-fit: contain;
+}
+
 
 /* --- Reserve Room Section --- */
 .bottom-container {
@@ -281,18 +284,17 @@ opacity: 1;
 /* Blue Bar */
 .bottom-row {
   position: absolute;
-  top: 0;                     
-  left: 50%;
-  transform: translateX(-50%);
+ 
+  
   width: 100%;
   max-width: 900px;     
-  height: 207px;
+ 
   background: #000324;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   flex-wrap: wrap;
-  opacity: 1;
+
   padding: 20px;
   box-sizing: border-box;
   font-size: 15px;
@@ -300,15 +302,11 @@ opacity: 1;
 
 /* Title */
 p2 {
-  position: absolute;
-  top: 30px;                 
-  left: 50%;
-  transform: translateX(-50%);
+ 
   text-align: center;
   font: normal 35px/44px Dosis, sans-serif;
   color: #FFFFFF;
   display: block;
-  margin: 0;
 }
 
 
@@ -320,7 +318,7 @@ p2 {
   text-align: center;
   padding: 40px 20px;
   color: #E5FEFF;
-  margin-top: 200px;
+  margin-top: 150px;
 
 }
 
