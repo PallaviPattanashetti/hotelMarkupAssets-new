@@ -1,1 +1,1 @@
-// Peer review:
+// Peer review:Keant'e Epinger-Great Work on you got everything correct and in the perfect styling and layout great work on your responiveness as well everything still functions and looks great swapping between computer,tablet and mobile only suggestion i can make is setting harder max-width and max-height limits on some of your main body text because it can shrink to the point to where its illegable switching to some of the smaller phone screens otherwise again Great Work!
