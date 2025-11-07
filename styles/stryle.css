@@ -1,0 +1,357 @@
+/* --- Navbar --- */
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #000324;
+  z-index: 1030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.navbar-row {
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  flex-wrap: wrap;
+  gap: 35px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #1db7f5;
+}
+
+.logo-link img {
+  height: 60px;
+  width: auto;
+}
+
+/* --- Banner --- */
+.banner-image-container {
+  margin-top: 120px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-image-container img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.inner-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: 945px;
+  background: rgba(0, 3, 36, 0.8);
+  border-radius: 6px;
+  padding: 32px;
+  color: #E5FEFF;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.inner-box p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.box-subcontent {
+  font: 400 16px/22px 'Source Sans Pro', sans-serif;
+  color: #E5FEFF;
+}
+
+/* --- Main Content Section --- */
+.main-content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+
+.image-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-section img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.text-content h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1A1B26;
+}
+
+.text-content p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* --- Logo Row --- */
+
+.logo-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.award {
+  width: 160px;
+  height: 140px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.log1 { background-image: url('/images/awardfinest.png'); }
+.log2 { background-image: url('/images/awardsatisfaction.png'); }
+.log3 { background-image: url('/images/awardgenuine.png'); }
+
+/* --- Room Section --- */
+.blue-image-container {
+  background-image: url('/images/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.blue-image-container h3 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  width: 18rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* --- Package Section --- */
+.package-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.package-section h4 {
+  font-size: 35px;
+  color: #1A1B26;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.package-section .text-content h5 {
+  font-size: 25px;
+  color: #1A1B26;
+}
+
+.package-section .text-content h6 {
+  font-size: 16px;
+  color: #1F51A8;
+}
+
+.package-section .text-content p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.image-side img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* --- Amenities Section --- */
+.logoblue-container {
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+}
+
+.logoblue-container h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+.logoblue-container p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.logo-name {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* --- Reserve Room Section --- */
+.bottom-container {
+  position: relative;
+  max-width: 1140px; 
+  width: 100%;        
+  height: 480px;
+  background-image: url('/images/hamsterreserve.jpg');
+  background-size: 100% auto; 
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin: 40px auto 0;  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bottom-row > .container {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Blue Bar */
+.bottom-row {
+  position: absolute;
+  top: 0;                     
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1137px;     
+  height: 207px;
+  background: #000324;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  opacity: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Title */
+p2 {
+  position: absolute;
+  top: 30px;                 
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font: normal 35px/44px Dosis, sans-serif;
+  color: #FFFFFF;
+  display: block;
+  margin: 0;
+}
+
+/* Input fields */
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.col input {
+  width: 160px;
+  height: 38px;
+  border: 2px solid #E5FEFF;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+/* --- Footer Section --- */
+.last-row {
+  width: 100%;
+  background: #000324;
+  text-align: center;
+  padding: 40px 20px;
+  color: #E5FEFF;
+  margin-top: 40px;
+
+}
+
+.last-row img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+p3 {
+  text-align: center;
+  font: normal 16px/20px 'Source Sans Pro', sans-serif;
+  color: #E5FEFF;
+  display: block;
+  margin-bottom: 10px;
+}
+
+p4 {
+  text-align: center;
+  font: normal 16px/20px 'Source Sans Pro', sans-serif;
+  color: #E5FEFF;
+  display: block;
+}
+
+.form-control{
+text-align: center;
+color: lightblue;
+
+}
