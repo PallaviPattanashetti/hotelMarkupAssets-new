@@ -10,5 +10,6 @@
         "logoblue",
         "maison",
         "subcontent"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
