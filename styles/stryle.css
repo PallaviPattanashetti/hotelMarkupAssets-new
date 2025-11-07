@@ -94,7 +94,7 @@
 .image-side {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
@@ -115,6 +115,7 @@ font:  normal 35px/44px Dosis;
 color: #1A1B26;
 opacity: 1;
 margin-bottom: 70px;
+margin-top: 40;
   
 }
 
@@ -149,6 +150,17 @@ margin-bottom: 70px;
 .log2 { background-image: url('/images/awardsatisfaction.png'); }
 .log3 { background-image: url('/images/awardgenuine.png'); }
 
+
+
+
+.home{
+
+  width: 369px;
+  height: 450px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
 /* --- Room Section --- */
 .blue-image-container {
   background-image: url('/images/bg2.jpg');
@@ -167,8 +179,9 @@ margin-bottom: 70px;
 .card {
   background: white;
   border-radius: 10px;
-  width: 20rem;
+  width: 369 px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+  
 }
 
 .card img {
@@ -267,6 +280,8 @@ object-fit: contain;
 }
 
 
+
+
 /* --- Reserve Room Section --- */
 .bottom-container {
   position: relative;
@@ -343,3 +358,14 @@ p4 {
 }
 
 
+.container2 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 70%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40;
+    margin-bottom: 40;
+}
